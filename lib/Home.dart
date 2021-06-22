@@ -22,8 +22,6 @@ class _HomeState extends State<Home> {
     if(opcao == "resetar"){
       prefs.remove("valor");
     }
-
-
   }
 
   int _contador = 0;
